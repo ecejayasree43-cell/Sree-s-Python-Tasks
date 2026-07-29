@@ -1,0 +1,72 @@
+modules tasks
+USER DEFINED MODULE
+A school wants to maintain student information in a separate Python module. The module should contain functions to display the student's name, register number, and department. The main program should import the module and display the student's details.
+A bank wants to create a reusable module that contains functions for deposit, withdrawal, and balance enquiry. The main program should import the bank module and perform these banking operations instead of writing the functions repeatedly.
+A calculator application requires addition, subtraction, multiplication, and division operations. Create these functions in a user-defined module and import the module into the main program to perform the calculations.
+A library management system wants to store functions for issuing books, returning books, and checking book availability in a separate module. The main program should import the module and execute the required library operation.
+A hospital management system wants to create a module that contains functions to display patient details, doctor details, and appointment status. Import the module in the main program and display the required information.
+A college wants to maintain faculty information using a user-defined module. The module should contain functions to display the faculty name, department, designation, and experience. The main program should import the module and print the details.
+A supermarket billing system wants to create a module that calculates the total bill, discount amount, and final payable amount. The main program should import the billing module and generate the customer's bill.
+A mobile recharge application wants to keep functions for Jio, Airtel, and BSNL recharge plans in a separate module. The main program should import the module and display the selected recharge plan.
+A railway reservation system wants to create a user-defined module that contains functions to check seat availability, display train details, and calculate ticket fare. The main program should import the module and perform the required reservation task.
+An employee management system wants to create a separate module containing functions to display employee details, calculate salary, and print the employee's designation. The main program should import the module and execute these functions.
+
+
+CALENDAR
+
+ABC Engineering College is preparing the academic calendar for 2027. The principal wants to print the complete calendar of the year.nd print whether it is a leap year.
+A company is organizing an annual meeting in September 2026. The manager wants to display only the calendar for that month to finalize the meeting date.
+A hospital needs to verify whether a baby born in 2028 can have a birthday on February 29.
+A company gives a special bonus in every leap year. HR wants to know how many leap years occur between 2000 and 2030.
+A travel agency is planning a tour in December 2026. The staff wants to print the calendar of that month to prepare the travel schedule.
+
+DATETIME
+
+A passport office wants to compare today's date with the passport expiry date and determine whether the passport is valid or expired.
+A school stores the first period starting time.
+An ATM records the date and time of every transaction.
+A company wants to store and display an employee's joining date.
+
+RANDOM
+
+A lottery company wants to generate a random lucky number between 1 and 100.
+A game application wants to simulate a dice roll.
+A weather station generates a random temperature between 20.0°C and 40.0°C.
+An online store generates a random discount price.
+A card game application shuffles the cards before starting the game.
+A teacher randomly rearranges student roll numbers for seating.
+A restaurant app randomly suggests one food item.
+A movie app randomly suggests one movie.
+A company selects 3 lucky winners from a customer list
+A cricket academy randomly selects 5 players.
+
+OS
+
+A software developer wants to know the current working directory before saving project files. Write a Python program using the os module to display the current working directory of the system.
+A system administrator wants to view all files and folders available in a project directory before performing file operations. Write a Python program to display the contents of the current directory using the os module.
+A company wants to rename the file report.txt to annual_report.txt after preparing the final report. Write a Python program using the os module to rename the file.
+A college wants to create a new folder named Python_Lab to store all Python practical programs. Write a Python program using the os module to create the directory.
+A software company wants to organize project files by creating nested folders such as Project/Source/Python. Write a Python program using the os module to create multiple directories at once.
+A photographer wants to verify the current folder before saving edited images. Write a Python program to display the current working directory using the os module.
+A library management system wants to display all files stored in the digital library folder. Write a Python program to list all files and folders in the current directory.
+A school wants to rename the folder Class10 to Class10A after updating the class section. Write a Python program using the os module to rename the folder.
+
+PYWHATKIT
+
+A company wants to automatically send a meeting reminder to all employees through WhatsApp at a scheduled time. Write a Python program using the pywhatkit module to send a WhatsApp message to a given mobile number.
+A school wants to send an exam notification to students through WhatsApp before the examination starts. Write a Python program using the pywhatkit module to send the message automatically at the specified time.
+A music application wants to play a song requested by the user directly on YouTube. Write a Python program using the pywhatkit module to search and play the given song on YouTube.
+A user wants to watch the latest news on YouTube by entering the news topic. Write a Python program using the pywhatkit module to search and play the related video automatically.
+A college student wants to search for information about Artificial Intelligence on Google. Write a Python program using the pywhatkit module to perform the Google search automatically.
+A customer wants to search for the latest mobile phones on Google without typing the query in a browser. Write a Python program using the pywhatkit module to search the given topic automatically.
+
+MATPLOTLIB
+A school wants to analyze the marks scored by a student in five different subjects. The management wants to display the marks using a line graph to observe the student's performance across all subjects. Write a Python program using Matplotlib to plot the line graph.
+A weather department records the temperature for seven consecutive days. The department wants to visualize the daily temperature changes using a line graph. Write a Python program using Matplotlib to display the graph.
+A supermarket wants to compare the sales of different products such as Rice, Sugar, Oil, and Milk. Write a Python program using Matplotlib to display the sales comparison using a vertical bar chart.
+A college wants to compare the number of students in different departments such as CSE, ECE, EEE, and Mechanical. Write a Python program using Matplotlib to display the comparison using a bar chart.
+A company wants to compare the salaries of employees in different departments. The management prefers a horizontal bar chart for better readability. Write a Python program using Matplotlib to display the employee salaries.
+A hospital wants to compare the number of patients admitted in different hospital wards. Write a Python program using Matplotlib to represent the patient count using a horizontal bar chart.
+A family wants to analyze their monthly expenses on Food, Rent, Transport, Education, and Entertainment. Write a Python program using Matplotlib to display the expense distribution using a pie chart.
+A company wants to show the percentage of employees working in different departments. Write a Python program using Matplotlib to represent the department-wise employee distribution using a pie chart.
+A teacher wants to study the relationship between the number of hours students study and the marks they score in the examination. Write a Python program using Matplotlib to display the data using a scatter plot.
