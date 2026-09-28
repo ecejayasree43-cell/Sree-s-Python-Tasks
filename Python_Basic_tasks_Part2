@@ -1,0 +1,299 @@
+ A. `while` Loop – 15 New Tasks
+
+ 1. Grocery Item Counter
+
+Keep asking the user to enter grocery item names. Stop when the user enters `"done"`. Display how many items were entered.
+
+ 2. Temperature Monitoring
+
+Continuously enter temperature readings. Stop when the temperature entered is `-1`. Display the highest temperature recorded.
+
+3. Mobile Recharge Balance
+
+Start with a balance of ₹500. Ask the user for an amount to spend repeatedly. Deduct it from the balance until the balance becomes insufficient.
+
+4. Daily Expense Tracker
+
+Ask the user to enter daily expenses one by one. Stop after entering `-1`. Display the total expenses.
+
+5. Login with Username and Password
+
+Ask for username and password. Allow the user to retry until both are correct.
+
+6. Character Input Until `#`
+
+Keep accepting characters from the user until `#` is entered. Count how many characters were entered before `#`.
+
+ 7. Electricity Usage
+
+Ask the user to enter electricity units consumed each day. Continue for 7 days and calculate the total consumption.
+
+ 8. Simple Menu System
+
+Create a menu:
+1. Add
+2. Subtract
+3. Exit
+Keep displaying the menu until the user chooses `3`.
+
+ 9. Savings Goal
+
+The user deposits money repeatedly. Continue until their savings reach ₹10,000. Display how many deposits were required.
+
+ 10. Attendance Tracker
+Ask whether each student is present or absent using:
+P = Present
+A = Absent
+Stop when the user enters `X`. Display total present and absent students.
+
+ 11. Fuel Filling
+
+A vehicle has a tank capacity of 50 litres. Keep entering fuel quantities until the tank becomes full. Display the final quantity.
+
+ 12. Word Length Checker
+
+Keep accepting words. Stop when the user enters `"stop"`. Display the longest word entered.
+
+ 13. Employee Salary Entry
+
+Keep entering employee salaries until the user enters `0`. Find the total salary expenditure.
+
+14. Water Bottle Filling
+
+A bottle has a capacity of 2000 ml. Ask repeatedly how much water is added. Stop when it becomes full or exceeds capacity. Display the final quantity.
+
+15. Quiz Until Wrong Answer
+
+Ask a series of simple questions. Continue while the user answers correctly. Stop at the first wrong answer and display the number of correct answers.
+
+-------------------------------------------------------------------------------------------
+ B. `for` Loop – 15 New Tasks
+
+ 1. Employee Names
+
+Given:employees = ["Arun", "Priya", "Karthik", "Divya", "Rahul"]
+
+Print:
+Employee 1: Arun
+Employee 2: Priya
+...
+
+2. Product Price Increase
+
+Given a list of product prices, increase every price by 5% and display the new prices.
+
+ 3. Email Validation
+Given a list of email addresses, count how many contain `"@"`.
+emails = [
+    "a@gmail.com",
+    "hello.com",
+    "test@yahoo.com",
+    "abc"
+]
+
+4. Names Starting With A
+
+Given a list of names, display only names beginning with `"A"`.
+
+ 5. Word Length Analysis
+
+Given a sentence, print each word along with its length.
+Example:
+Python → 6
+Programming → 11
+is → 2
+fun → 3
+
+6. Remove Spaces
+
+Get a sentence and create a new string without spaces using a `for` loop.
+
+ 7. Count Uppercase and Lowercase
+
+Given a string, count:
+ Uppercase letters
+ Lowercase letters
+ Digits
+
+ 8. Discounted Product Prices
+prices = [500, 1200, 750, 2000, 350]
+Apply:
+ 10% discount if price > ₹1000
+ 5% discount otherwise
+Display final prices.
+
+9. Student Grade Generator
+marks = [95, 82, 76, 64, 51, 39]
+Display grades:
+90+ → A
+80–89 → B
+70–79 → C
+60–69 → D
+50–59 → E
+Below 50 → F
+
+10. Find Duplicate Values
+numbers = [10, 20, 10, 30, 40, 20, 50]
+Display the values that appear more than once.
+
+ 11. Separate Words by Length
+Given a sentence, count:
+Words with length ≤ 4
+ Words with length > 4
+
+ 12. Extract Digits from Text
+text = "Python123 is version 3"
+Extract and display only the digits.
+
+13. Convert Celsius to Fahrenheit
+Given a list of Celsius temperatures:
+temperatures = [0, 25, 30, 37, 40]
+Convert each into Fahrenheit.
+
+Formula: F = (C × 9/5) + 32
+
+ 14. Product Stock Alert
+stock = [25, 3, 0, 15, 2, 30]
+Display:
+ `"Out of Stock"` for `0`
+ `"Low Stock"` for values below `5`
+ `"Available"` otherwise
+
+ 15. Sentence Word Search
+Get a sentence and a search word. Use a `for` loop to count how many times the word occurs.
+
+--------------------------------------------------------------------------------------------
+ C. Nested Loops – 15 New Tasks
+
+These are not pattern-printing or matrix tasks.
+
+ 1. Cinema Seat Availability
+Create 4 rows with 5 seats each.
+Use:
+A = Available
+B = Booked
+Display the seating arrangement.
+
+ 2. Classroom Attendance
+Represent attendance for 3 classes with 5 students each:
+attendance = [
+    ["P", "P", "A", "P", "A"],
+    ["P", "A", "P", "P", "P"],
+    ["A", "P", "P", "A", "P"]
+]
+Count the total number of presents.
+
+3. Find Common Elements
+
+Given two lists:
+list1 = [10, 20, 30, 40]
+list2 = [20, 40, 50, 60]
+Use nested loops to find common elements.
+
+ 4. Compare Student Marks
+Two students have marks in 4 subjects:
+student1 = [80, 75, 90, 85]
+student2 = [70, 88, 92, 80]
+Compare their marks subject by subject and display who scored higher.
+
+ 5. Product Comparison
+Two shops sell the same products.
+shop1 = [500, 700, 300, 900]
+shop2 = [450, 750, 350, 850]
+Compare each product price and display which shop is cheaper.
+
+6. Bus Seat Booking
+Create 5 rows with 4 seats each.
+Allow the user to enter:
+
+Row number
+Seat number
+
+Then mark that seat as `"Booked"`.
+
+ 7. Find Repeated Names
+names = [
+    ["Arun", "Priya"],
+    ["Karthik", "Arun"],
+    ["Divya", "Priya"]
+]
+Use nested loops to find names appearing more than once.
+
+ 8. Department Employee Count
+Represent employees from different departments:
+
+departments = [
+    ["Arun", "Priya", "Kiran"],
+    ["Divya", "Rahul"],
+    ["Meena", "Vijay", "Suresh", "Anu"]
+]
+Display the number of employees in each department.
+
+ 9. Find Highest Marks Across Classes
+Three classes have student marks:
+classes = [
+    [78, 85, 92],
+    [88, 76, 95],
+    [91, 89, 84]
+]
+Find the highest mark across all classes.
+
+ 10. Restaurant Menu Display
+Create menus for three categories:
+menu = [
+    ["Idly", "Dosa", "Vada"],
+    ["Fried Rice", "Noodles", "Manchurian"],
+    ["Ice Cream", "Cake", "Juice"]
+]
+Display each category's items using nested loops.
+
+ 11. Online Order Status
+
+Given:
+orders = [
+    ["Delivered", "Pending", "Delivered"],
+    ["Cancelled", "Delivered", "Pending"],
+    ["Delivered", "Delivered", "Pending"]
+]
+Count:
+ Delivered
+ Pending
+Cancelled
+
+ 12. Find a Specific Product
+Given products arranged by categories:
+products = [
+    ["Laptop", "Mouse", "Keyboard"],
+    ["Mobile", "Charger", "Earphones"],
+    ["Camera", "Tripod", "Lens"]
+]
+Ask the user for a product name and search for it using nested loops.
+
+13. Monthly Sales Analysis
+Represent sales for 3 employees over 4 weeks:
+sales = [
+    [10000, 12000, 9000, 15000],
+    [8000, 11000, 13000, 10000],
+    [15000, 14000, 16000, 12000]
+]
+Calculate the total sales made by each employee.
+
+14. Compare Two Class Results
+
+Given:
+class_A = [78, 85, 90, 65, 88]
+class_B = [82, 80, 95, 70, 84]
+Compare corresponding student marks and count how many students from each class scored higher.
+
+15. Mini Bank Transaction Analyzer
+Given transactions for multiple customers:
+
+transactions = [
+    [5000, -1000, -500, 2000],
+    [3000, -500, 1000],
+    [8000, -2000, -1000, 500]
+]
+Positive values represent deposits and negative values represent withdrawals.
+Using nested loops, calculate the final balance change for each customer.
+
+-------------------------------------------------------------------------------------------------------------
