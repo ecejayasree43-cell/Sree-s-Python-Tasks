@@ -1,0 +1,45 @@
+Mini Project: Smart Number Explorer
+Problem statement: Create a Python console application that allows users to perform different
+number-related operations using the built-in math module and their own user-defined functions.
+
+1. Menu design
+===== SMART NUMBER EXPLORER =====
+
+1. Find Square Root
+2. Find Power of a Number
+3. Find Factorial
+4. Find GCD of Two Numbers
+5. Check Whether a Number is Perfect Square
+6. Exit
+
+Enter your choice:
+--------------------------------------------------------------------
+2. Smart Study Assistant
+============================
+Modules: webbrowser, pywhatkit
+
+Problem statement: Create a program that lets students search for a topic online or open a learning website through a menu.
+
+User-defined module: study_tools.py
+
+Functions: search_topic(), open_website()
+
+Menu:
+1. Search a topic using pywhatkit.search()
+2. Open a learning website using webbrowser
+3. Exit
+------------------------------------------------------------------------
+3. QR Code Maker
+Modules: qrcode, Pillow (PIL)
+
+Problem statement: Create a program that accepts text or a website URL and generates a QR code image that users can scan.
+
+User-defined module: qr_tools.py
+
+Functions: get_user_text(), generate_qr(), save_qr()
+
+Menu:
+1. Create a text QR code
+2. Create a website QR code
+3. Exit
+===================================================================================
