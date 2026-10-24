@@ -1,0 +1,81 @@
+
+1. Smart Shopping & Billing System
+==================================
+Retail Domain
+Problem statement:
+=================
+Develop a menu-based Python application that allows customers to select products, 
+enter quantities, calculate the total bill, apply discounts based on the purchase amount, 
+and display a formatted receipt.
+
+Menu options
+->View available products and prices
+-> Purchase a product
+-> Calculate shopping bill
+-> Apply discount
+-> Exit
+
+Example scenario
+=================
+A customer buys 2 shirts at ₹500 each and 1 bag at ₹800. 
+The program calculates the subtotal, checks discount eligibility,
+and displays the final amount.
+
+2. Movie Ticket Booking System
+===============================
+Entertainment Domain
+Problem statement
+====================
+Develop a menu-based Python application that allows users to view movies, 
+select a show, choose the number of tickets, calculate the booking cost, 
+and determine whether a special offer applies.
+
+Menu options
+-> View available movies
+-> Select movie and show time
+-> Book tickets
+-> Calculate ticket bill
+-> Exit
+
+
+Example scenario
+A customer books 4 tickets at ₹180 each. If the booking is for 5 or more tickets,
+the program applies a 10% discount. It then prints the booking summary.
+
+Logic practice: conditions, arithmetic, logical operators,
+quantity validation, and formatted output.
+
+
+3. Student Performance & Result Analyzer
+=======================================
+Education Domain
+Problem statement
+==================
+Develop a menu-based Python application that accepts student details and 
+subject marks, calculates total and average marks, assigns grades, determines
+pass or fail status, and displays a formatted result report.
+
+Menu options
+-> Enter student details
+-> Enter subject marks
+-> Calculate total and average
+-> Check grade and result
+-> Display report card
+-> Exit
+
+
+Example scenario
+==================
+A student scores 85, 72, and 91 in three subjects. The program calculates the total 
+as 248 and average as 82.67, then assigns a grade according to the defined grading rules.
+
+
+
+
+
+
+
+
+
+
+
